@@ -1,0 +1,124 @@
+.cabecalho{
+	align-items: center;
+	border-top: .2rem solid #ffdb58;
+	display: flex;
+	justify-content: space-between;
+	padding: 1.5rem;
+}
+
+.cabecalho__logo{
+	padding-left: 7rem;
+}
+
+.cabecalho__txt{
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+	padding-right: 7rem;
+}
+
+.cabecalho__txt1{
+	color: #120a8f;
+	font-size: 2rem;
+}
+
+.cabecalho__txt2{
+	font-size: 1rem;
+	text-align: right;
+	padding-top: 1rem;
+}
+
+main{
+	background-image: url("img/blue-yellow.jpg");
+	background-size: 100%;
+}
+
+.formulario__txt{
+	color: #ffdb58;
+	font-family: 'Libre Franklin', sans-serif; 
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding-top: 10%;
+	text-align: center;
+	text-shadow: 2px 2px 2px #120a8f;
+}
+
+.formulario .formulario__field{
+	display: flex;
+	justify-content: space-between;
+}
+
+.formulario__field{
+	flex-wrap: wrap;
+	padding-top: 10%;
+	padding-bottom: 3%;
+}
+
+.field{
+	height: 4rem;
+}
+
+.nome, .email, .celular, .cpf, .cursos, .enviar{
+	width: 250px;
+	height: 40px;
+}
+
+.field:nth-child(2n){
+	margin-right: 30%;
+}
+
+.field:nth-child(2n+1){
+	margin-left: 30%;
+}
+
+.field input, .field select{
+	background-color: #fff;
+	border: none;
+	color: #120a8f;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.cursos option{
+	align-items: center;
+}
+
+.enviar{
+	background-color: #120a8f;
+	border: none;
+	color: #ffdb58;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.rodape{
+	align-items: center;
+	border-bottom: .2rem solid #ffdb58;
+	display: flex;
+	justify-content: space-between;
+	padding: 1.5rem;
+	position: relative;
+}
+
+.rodape__txt{
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+	padding-left: 7rem;
+}
+
+.rodape__logo{
+	padding-right: 5rem;
+}
+
+.icon{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.icon__help{
+	width: 6rem;
+	margin: 0 4rem 4rem 0;
+}
